@@ -1,5 +1,27 @@
-.navbar{
-    background: #A1D2D9!important;
+:root{
+    --primary-color:#153C32;
+    --secondary-color: #a1d2d9;
+    --accent-color:#0b2a4e;
 }
+
+body{
+    background: var(--primary-color);
+}
+
+
+.navbar{
+    background: var(--secondary-color)!important;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;}
+.navbar-brand{
+    font-size: 30px;
+    color: var(--accent-color)
+}
+.nav-link{
+    color:#fff;
+    font-size: 20px;
+}
+
+
 /*font-family: 'Open Sans', sans-serif;
 font-family: 'Source Serif Pro', serif;
