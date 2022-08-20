@@ -2,26 +2,62 @@
     --primary-color:#153C32;
     --secondary-color: #a1d2d9;
     --accent-color:#0b2a4e;
+    --heading-font-family:'Source Serif Pro', serif;
+    --default-font-famiy:'Open Sans', sans-serif;
 }
 
 body{
     background: var(--primary-color);
 }
 
+h1{
+    font-family: var(--heading-font-family);
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    margin: 10px 5px;
+    font-size: 48px;
+}
 
 .navbar{
     background: var(--secondary-color)!important;
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--default-font-famiy);
     font-weight: 400;}
+    
 .navbar-brand{
     font-size: 30px;
-    color: var(--accent-color)
+    color: var(--accent-color);
+}
+
+.navbar-brand:hover{
+    color: var(--accent-color); 
 }
 .nav-link{
     color:#fff;
     font-size: 20px;
+    font-weight: 400;
+    transition: none;
+}
+.nav-link:hover{
+    color:var(--accent-color);
 }
 
+.nav-link:visited{
+    color: #fff;
+   
+}
+
+.dropdown-menu{
+    border:none;
+}
+.dropdown-item{
+    color: var(--accent-color);
+}
+
+.dropdown-item:active{
+    background: #fff;
+    color: var(--accent-color);
+}
 
 /*font-family: 'Open Sans', sans-serif;
 font-family: 'Source Serif Pro', serif;
