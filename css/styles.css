@@ -36,14 +36,16 @@ h1{
     color:#fff;
     font-size: 20px;
     font-weight: 400;
-    transition: none;
+   
 }
 .nav-link:hover{
     color:var(--accent-color);
 }
 
+
 .nav-link:visited{
-    color: #fff;
+    color: none;
+   
    
 }
 
