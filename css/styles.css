@@ -70,7 +70,7 @@ h1 {
   size: 80%;
 }
 
-.content-buttons {
+.mobile-content-buttons {
   background: var(--secondary-color);
   color: var(--accent-color);
   font-family: var(--default-font-famiy);
@@ -78,6 +78,13 @@ h1 {
   border: none;
 }
 
+.content-buttons {
+  background: var(--secondary-color);
+  color: var(--accent-color);
+  font-family: var(--default-font-famiy);
+  font-weight: 400;
+  border: none;
+}
 .content-buttons:hover {
   background: var(--accent-color);
   border: none;
