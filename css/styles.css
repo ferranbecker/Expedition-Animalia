@@ -77,6 +77,11 @@ h1 {
   font-weight: 400;
   border: none;
 }
+.mobile-content-buttons:hover {
+  background: var(--accent-color);
+  border: none;
+  color: #fff;
+}
 
 .content-buttons {
   background: var(--secondary-color);
@@ -89,4 +94,14 @@ h1 {
   background: var(--accent-color);
   border: none;
   color: #fff;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 24px;
+    margin: 5px 2px;
+  }
+  .navbar-brand {
+    font-size: 20px;
+  }
 }
