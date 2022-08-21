@@ -19,6 +19,14 @@ h1{
     font-size: 48px;
 }
 
+.home-content{
+    font-family:var(--default-font-famiy);
+    font-weight: 400;
+    color: var(--secondary-color);
+    font-size: 24px;
+    margin: 10px 5px;
+}
+
 .navbar{
     background: var(--secondary-color)!important;
     font-family: var(--default-font-famiy);
@@ -61,5 +69,8 @@ h1{
     color: var(--accent-color);
 }
 
+.hero-img{
+size: 80%;
+}
 /*font-family: 'Open Sans', sans-serif;
 font-family: 'Source Serif Pro', serif;
