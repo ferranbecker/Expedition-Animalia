@@ -47,7 +47,7 @@ h2 {
 .body-content {
   font-family: var(--default-font-famiy);
   font-weight: 400;
-  color: var(--accent-color);
+  color: #fff;
   font-size: 18px;
 }
 
@@ -115,6 +115,7 @@ footer {
 .content-box {
   background-color: var(--content-box-color);
   border-radius: 10px;
+  padding: 5px 5px 20px;
 }
 
 @media (max-width: 576px) {
@@ -143,5 +144,6 @@ footer {
 @media (max-width: 767px) {
   .content-box {
     background-color: rgba(0, 0, 0, 0);
+    padding: 0px;
   }
 }
