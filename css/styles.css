@@ -29,19 +29,26 @@ h2 {
   font-size: 36px;
 }
 
-.page-content {
+.home-content {
   font-family: var(--default-font-famiy);
   font-weight: 400;
   color: var(--secondary-color);
   font-size: 24px;
   margin: 10px 10px 5px;
 }
+.page-content {
+  font-family: var(--default-font-famiy);
+  font-weight: 400;
+  color: var(--accent-color);
+  font-size: 24px;
+  margin: 10px 10px 5px;
+}
 
 .body-content {
   font-family: var(--default-font-famiy);
-  font-weight: 600;
+  font-weight: 400;
   color: var(--accent-color);
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .navbar {
@@ -86,7 +93,8 @@ h2 {
 }
 footer {
   background: var(--secondary-color);
-  padding: 20px;
+  color: var(--accent-color);
+  padding: 2px;
 }
 
 .content-buttons,
@@ -122,9 +130,18 @@ footer {
   body {
     margin-top: 45px;
   }
+
+  .body-content {
+    text-align: center;
+  }
 }
 @media (max-width: 280px) {
   body {
     margin-top: 100px;
+  }
+}
+@media (max-width: 767px) {
+  .content-box {
+    background-color: rgba(0, 0, 0, 0);
   }
 }
