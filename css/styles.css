@@ -102,15 +102,18 @@ footer {
 }
 
 .content-buttons,
-.mobile-content-buttons {
+.mobile-content-buttons,
+.contact-button {
   background: var(--secondary-color);
   color: var(--accent-color);
   font-family: var(--default-font-famiy);
   font-weight: 400;
   border: none;
 }
+
 .content-buttons:hover,
-.mobile-content-buttons:hover {
+.mobile-content-buttons:hover,
+.contact-button:hover {
   background: var(--accent-color);
   border: none;
   color: #fff;
