@@ -1,13 +1,16 @@
 :root {
   --primary-color: #153c32;
   --secondary-color: #a1d2d9;
+
   --accent-color: #0b2a4e;
+  --content-box-color: rgb(255, 255, 255, 0.1);
   --heading-font-family: "Source Serif Pro", serif;
   --default-font-famiy: "Open Sans", sans-serif;
 }
 
 body {
-  background: var(--primary-color);
+  background: linear-gradient(to top, #153c32 0%, #80d0c7 100%);
+  margin-top: 80px;
 }
 
 h1 {
@@ -19,7 +22,14 @@ h1 {
   font-size: 48px;
 }
 
-.home-content {
+h2 {
+  font-family: var(--heading-font-family);
+  font-weight: 400;
+  color: #fff;
+  font-size: 36px;
+}
+
+.page-content {
   font-family: var(--default-font-famiy);
   font-weight: 400;
   color: var(--secondary-color);
@@ -27,15 +37,24 @@ h1 {
   margin: 10px 10px 5px;
 }
 
+.body-content {
+  font-family: var(--default-font-famiy);
+  font-weight: 600;
+  color: var(--accent-color);
+  font-size: 20px;
+}
+
 .navbar {
-  background: var(--secondary-color) !important;
+  background: linear-gradient(to top, #70b5ad 0%, #02626b 100%) !important;
   font-family: var(--default-font-famiy);
   font-weight: 400;
 }
 
 .navbar-brand {
-  font-size: 30px;
-  color: var(--accent-color);
+  font-size: 48px;
+  color: #fff;
+  font-weight: 600;
+  text-shadow: 1px 1px 2px #047669;
 }
 
 .navbar-brand:hover {
@@ -65,9 +84,9 @@ h1 {
   background: #fff;
   color: var(--accent-color);
 }
-
-.hero-img {
-  size: 80%;
+footer {
+  background: var(--secondary-color);
+  padding: 20px;
 }
 
 .content-buttons,
@@ -85,6 +104,11 @@ h1 {
   color: #fff;
 }
 
+.content-box {
+  background-color: var(--content-box-color);
+  border-radius: 10px;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 28px;
@@ -92,6 +116,15 @@ h1 {
     font-weight: 400;
   }
   .navbar-brand {
-    font-size: 20px;
+    font-size: 24px;
+    font-weight: 400;
+  }
+  body {
+    margin-top: 45px;
+  }
+}
+@media (max-width: 280px) {
+  body {
+    margin-top: 100px;
   }
 }
