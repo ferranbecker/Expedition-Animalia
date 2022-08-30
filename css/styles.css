@@ -141,6 +141,16 @@ footer {
   margin: 40px 20px;
 }
 
+.git-hub {
+  text-decoration: none;
+  color: #fff;
+}
+
+.git-hub:hover {
+  text-decoration: none;
+  color: var(--accent-color);
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 32px;
